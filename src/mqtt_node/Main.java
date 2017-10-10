@@ -9,12 +9,15 @@ import org.eclipse.paho.client.mqttv3.MqttPersistenceException;
 public class Main {
 public static ArrayList<Node> list;
 	public static void main(String[] args) throws MqttPersistenceException, MqttException {
-		
+	
 		//MQTTclient client = 
 		MQTTclient client = new MQTTclient("base/#");
 		client.addTopic("base/temp/","temp");
 		client.addTopic("base/temp1/","temp1");
 		client.addTopic("base/temp2/","temp2");
+		//Test av github
+		client.addTopic("base/temp4/", "temp4");
+		client.addTopic("base/temp5/", "temp5");
 		
 						
 		while(true){
