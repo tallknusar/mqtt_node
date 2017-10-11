@@ -15,9 +15,7 @@ public static ArrayList<Node> list;
 		client.addTopic("base/temp/","temp");
 		client.addTopic("base/temp1/","temp1");
 		client.addTopic("base/temp2/","temp2");
-		//Test av github
-		client.addTopic("base/temp4/", "temp4");
-		client.addTopic("base/temp5/", "temp5");
+		
 		
 						
 		while(true){
